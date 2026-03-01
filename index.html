@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaishali Naik | Frontend Developer</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Calibri, sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color:white;
+  line-height:1.6;
+}
+
+header{
+  text-align:center;
+  padding:100px 20px;
+}
+
+header h1{
+  font-size:42px;
+  margin-bottom:10px;
+}
+
+header p{
+  color:#94a3b8;
+  font-size:18px;
+  margin-bottom:20px;
+}
+
+button{
+  padding:10px 25px;
+  border:none;
+  background:#38bdf8;
+  color:black;
+  font-weight:bold;
+  border-radius:6px;
+  cursor:pointer;
+  transition:0.3s;
+  margin:5px;
+}
+
+button:hover{
+  background:#0ea5e9;
+  transform:scale(1.05);
+}
+
+section{
+  max-width:900px;
+  margin:60px auto;
+  padding:0 20px;
+}
+
+h2{
+  margin-bottom:20px;
+  color:#38bdf8;
+  border-bottom:1px solid #334155;
+  padding-bottom:5px;
+}
+
+.skills span{
+  display:inline-block;
+  background:#1e293b;
+  padding:8px 15px;
+  margin:5px;
+  border-radius:20px;
+  font-size:14px;
+}
+
+.project{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:20px;
+  transition:0.3s;
+}
+
+.project:hover{
+  transform:translateY(-5px);
+}
+
+.project h3{
+  margin-bottom:10px;
+}
+
+.project p{
+  color:#cbd5e1;
+  margin-bottom:10px;
+}
+
+.project a{
+  color:#38bdf8;
+  text-decoration:none;
+  margin-right:15px;
+  font-weight:500;
+}
+
+.project a:hover{
+  text-decoration:underline;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  background:#1e293b;
+  margin-top:50px;
+  color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hi, I'm Vaishali Naik 👋</h1>
+  <p>Frontend Developer | JavaScript | Next.js | TypeScript | Building Modern Web Applications</p>
+
+  <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+    Contact Me
+  </button>
+
+  <a href="Vaishali-Naik-Resume.pdf" target="_blank">
+    <button>Download Resume</button>
+  </a>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Frontend Developer with hands-on experience building responsive 
+    and user-friendly web applications using modern technologies. I enjoy solving 
+    problems, improving UI performance, and continuously learning new tools to 
+    build scalable and efficient applications.
+  </p>
+</section>
+
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>JavaScript (ES6)</span>
+    <span>Next.js</span>
+    <span>TypeScript</span>
+    <span>Tailwind CSS</span>
+    <span>Supabase</span>
+    <span>Git & GitHub</span>
+    <span>Vercel Deployment</span>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Smart Bookmark – Full Stack Web Application</h3>
+    <p>
+      Developed using Next.js, TypeScript, Tailwind CSS, and Supabase.
+      Implemented Google Authentication and real-time data updates.
+      Deployed on Vercel with responsive UI.
+    </p>
+    <a href="https://smart-bookmark-khaki-six.vercel.app/" target="_blank">Live Demo</a>
+    <a href="https://github.com/Vaishalinaik2003/smart-bookmark" target="_blank">GitHub Code</a>
+  </div>
+
+  <div class="project">
+    <h3>Tourism Website – Responsive Frontend Project</h3>
+    <p>
+      Built a responsive website using HTML, CSS, and JavaScript with 
+      mobile-first design and cross-browser compatibility.
+    </p>
+    <a href="https://tourisumwebsite.vercel.app/" target="_blank">Live Demo</a>
+    <a href="https://github.com/Vaishalinaik2003/tourisum-website" target="_blank">GitHub Code</a>
+  </div>
+
+  <div class="project">
+    <h3>Bug Tracking System</h3>
+    <p>
+      Created a web application using HTML, CSS, and JavaScript.
+      Implemented add/delete functionality using DOM manipulation.
+    </p>
+    <a href="https://bug-tracking-system-one.vercel.app/" target="_blank">Live Demo</a>
+    <a href="https://github.com/Vaishalinaik2003/bug-tracking-system" target="_blank">GitHub Code</a>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: naik41900@gmail.com</p>
+  <p>LinkedIn: https://linkedin.com/in/vaishali-naik-97198a308</p>
+  <p>GitHub: https://github.com/Vaishalinaik2003</p>
+</section>
+
+<footer>
+  <p>© 2026 Vaishali Naik | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
